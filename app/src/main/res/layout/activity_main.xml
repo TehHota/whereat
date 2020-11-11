@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E31837"
+    android:elevation="0dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_activity_title"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/main_toolbar"
+            app:layout_constraintEnd_toEndOf="@+id/main_toolbar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/tile"
+        android:layout_width="375dp"
+        android:layout_height="310dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/tile"
+        android:elevation="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_toolbar"
+        app:srcCompat="@drawable/tile" />
+
+    <ImageView
+        android:id="@+id/BiolaFlowerLogo"
+        android:layout_width="79dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="22dp"
+        android:contentDescription="@string/login_activity_biola_logo"
+        android:elevation="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/tile"
+        app:layout_constraintStart_toStartOf="@+id/tile"
+        app:layout_constraintTop_toTopOf="@+id/tile"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints="username"
+        android:elevation="2dp"
+        android:ems="10"
+        android:hint="@string/NetID"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/tile"
+        app:layout_constraintStart_toStartOf="@+id/tile"
+        app:layout_constraintTop_toBottomOf="@+id/BiolaFlowerLogo" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:autofillHints="password"
+        android:elevation="2dp"
+        android:ems="10"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:singleLine="false"
+        app:layout_constraintEnd_toEndOf="@+id/tile"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/tile"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="129dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_rounded_corners"
+        android:elevation="2dp"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="loginActivity"
+        android:text="@string/Log_In"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/tile"
+        app:layout_constraintStart_toStartOf="@+id/tile"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

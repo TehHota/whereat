@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E31837"
+    android:onClick="logoutActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/settings_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_activity_title"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/main_toolbar"
+            app:layout_constraintEnd_toEndOf="@+id/main_toolbar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/settingsTile"
+        android:layout_width="375dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_toolbar"
+        app:srcCompat="@drawable/tile" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="275dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/settings_activity_display_name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/settingsTile"
+        app:layout_constraintStart_toStartOf="@+id/settingsTile"
+        app:layout_constraintTop_toTopOf="@+id/settingsTile" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="275dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/settings_activity_notifications_switch"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/settingsTile"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/settingsTile"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+
+    <EditText
+        android:id="@+id/editTextTime2"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/settings_activity_notifications_time"
+        app:layout_constraintStart_toStartOf="@+id/settingsTile"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="225dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/settings_activity_notifications_time_description"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/editTextTime2"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
+    <Button
+        android:id="@+id/loginButton3"
+        android:layout_width="129dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_rounded_corners"
+        android:elevation="2dp"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="logoutActivity"
+        android:text="@string/settings_activity_notifications_logout_button"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/settingsTile"
+        app:layout_constraintStart_toStartOf="@+id/settingsTile"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
