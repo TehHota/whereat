@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 public class Feed extends AppCompatActivity {
 
@@ -18,6 +19,29 @@ public class Feed extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.feed_toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
+
+        String location = "";
+        String time = "";
+        String description = "";
+
+        Intent intent = getIntent();
+        if (intent.hasExtra(Post.LOCATION)) location = intent.getStringExtra(Post.LOCATION);
+        if (intent.hasExtra(Post.TIME)) time = intent.getStringExtra(Post.TIME);
+        if (intent.hasExtra(Post.DESCRIPTION)) description = intent.getStringExtra(Post.DESCRIPTION);
+
+        TextView locationTV = findViewById(R.id.location1);
+        if (location != "") locationTV.setText(location);
+        else locationTV.setText(R.string.entry1_location);
+
+        TextView timeTV = findViewById(R.id.time1);
+        if (time != "") timeTV.setText(time);
+        else locationTV.setText(R.string.entry1_time);
+
+        TextView descriptionTV = findViewById(R.id.description1);
+        if (description != "") descriptionTV.setText(description);
+        else locationTV.setText(R.string.entry1_description);
+
+
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
