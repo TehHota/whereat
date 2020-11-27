@@ -5,11 +5,16 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 public class Post extends AppCompatActivity {
+
+    public static final String LOCATION = "com.example.whereat.LOCATION";
+    public static final String TIME = "com.example.whereat.TIME";
+    public static final String DESCRIPTION = "com.example.whereat.DESCRIPTION";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +32,15 @@ public class Post extends AppCompatActivity {
 
     public void postActivity(View view) {
         Intent intent = new Intent(this, Feed.class);
+        EditText locationText = (EditText) findViewById(R.id.locationText);
+        String location = locationText.getText().toString();
+        intent.putExtra(LOCATION, location);
+        EditText timeText = (EditText) findViewById(R.id.timeText);
+        String time = timeText.getText().toString();
+        intent.putExtra(TIME, time);
+        EditText descriptionText = (EditText) findViewById(R.id.descriptionText);
+        String description = descriptionText.getText().toString();
+        intent.putExtra(DESCRIPTION, description);
         startActivity(intent);
     }
 

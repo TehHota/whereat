@@ -44,7 +44,7 @@
         app:srcCompat="@drawable/tile" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/locationText"
         android:layout_width="163dp"
         android:layout_height="47dp"
         android:layout_marginStart="20dp"
@@ -57,7 +57,7 @@
         app:layout_constraintTop_toTopOf="@+id/newPostTile" />
 
     <EditText
-        android:id="@+id/editTextTime"
+        android:id="@+id/timeText"
         android:layout_width="142dp"
         android:layout_height="46dp"
         android:layout_marginTop="20dp"
@@ -67,11 +67,11 @@
         android:inputType="time"
         app:layout_constraintEnd_toEndOf="@+id/newPostTile"
         app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toEndOf="@+id/locationText"
         app:layout_constraintTop_toTopOf="@+id/newPostTile" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/descriptionText"
         android:layout_width="334dp"
         android:layout_height="112dp"
         android:layout_marginTop="16dp"
@@ -82,7 +82,7 @@
         android:singleLine="false"
         app:layout_constraintEnd_toEndOf="@+id/newPostTile"
         app:layout_constraintStart_toStartOf="@+id/newPostTile"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/locationText" />
 
     <Button
         android:id="@+id/loginButton2"
@@ -99,5 +99,5 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/newPostTile"
         app:layout_constraintStart_toStartOf="@+id/newPostTile"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/descriptionText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
