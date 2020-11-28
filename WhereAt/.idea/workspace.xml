@@ -8,9 +8,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="740b544c-636c-4bd8-84ce-c1d0924c84ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../addbutton.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../addbutton.svg" afterDir="false" />
-    </list>
+    <list default="true" id="740b544c-636c-4bd8-84ce-c1d0924c84ad" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +47,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3_XL_API_30" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-28T04:54:23.665Z" />
     <property name="ResourceManagerPrefKey.ResourceType" value="LAYOUT" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />

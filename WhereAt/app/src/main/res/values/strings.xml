@@ -40,5 +40,6 @@
     <string name="settings_activity_notifications_time">10</string>
     <string name="settings_activity_notifications_time_description">minutes before events you have responded to</string>
     <string name="settings_activity_notifications_logout_button">Log Out</string>
+    <string name="new_post_button">New Post Button</string>
 
 </resources>
