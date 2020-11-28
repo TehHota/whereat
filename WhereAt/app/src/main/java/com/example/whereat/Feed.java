@@ -35,11 +35,11 @@ public class Feed extends AppCompatActivity {
 
         TextView timeTV = findViewById(R.id.time1);
         if (time != "") timeTV.setText(time);
-        else locationTV.setText(R.string.entry1_time);
+        else timeTV.setText(R.string.entry1_time);
 
         TextView descriptionTV = findViewById(R.id.description1);
         if (description != "") descriptionTV.setText(description);
-        else locationTV.setText(R.string.entry1_description);
+        else descriptionTV.setText(R.string.entry1_description);
 
 
     }
