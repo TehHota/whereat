@@ -469,7 +469,8 @@
                 android:onClick="newPostActivity"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:srcCompat="@drawable/path867" />
+                app:srcCompat="@drawable/path867"
+                android:contentDescription="@string/new_post_button" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </RelativeLayout>
