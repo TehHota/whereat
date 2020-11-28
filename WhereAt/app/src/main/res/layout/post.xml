@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#E31837">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:background="#E31837"
+android:elevation="0dp"
+android:orientation="vertical">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/post_toolbar"
@@ -15,7 +18,8 @@
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:elevation="4dp">
 
         <TextView
             android:id="@+id/title"
@@ -32,72 +36,99 @@
 
     </androidx.appcompat.widget.Toolbar>
 
-    <ImageView
-        android:id="@+id/newPostTile"
-        android:layout_width="375dp"
-        android:layout_height="279dp"
-        android:layout_marginTop="16dp"
-        android:contentDescription="@string/tile"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/post_toolbar"
-        app:srcCompat="@drawable/tile" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/locationText"
-        android:layout_width="163dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:autofillHints="location"
-        android:ems="10"
-        android:hint="@string/post_activity_location"
-        android:inputType="text"
-        app:layout_constraintStart_toStartOf="@+id/newPostTile"
-        app:layout_constraintTop_toTopOf="@+id/newPostTile" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/loginTile"
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:cardCornerRadius="4dp"
+            card_view:cardElevation="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/post_toolbar">
 
-    <EditText
-        android:id="@+id/timeText"
-        android:layout_width="142dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="20dp"
-        android:autofillHints="time"
-        android:ems="10"
-        android:hint="@string/post_activity_time"
-        android:inputType="time"
-        app:layout_constraintEnd_toEndOf="@+id/newPostTile"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toEndOf="@+id/locationText"
-        app:layout_constraintTop_toTopOf="@+id/newPostTile" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/descriptionText"
-        android:layout_width="334dp"
-        android:layout_height="112dp"
-        android:layout_marginTop="16dp"
-        android:autofillHints="description"
-        android:ems="10"
-        android:hint="@string/post_activity_description"
-        android:inputType="textPersonName"
-        android:singleLine="false"
-        app:layout_constraintEnd_toEndOf="@+id/newPostTile"
-        app:layout_constraintStart_toStartOf="@+id/newPostTile"
-        app:layout_constraintTop_toBottomOf="@+id/locationText" />
+                <EditText
+                    android:id="@+id/locationText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="28dp"
+                    android:autofillHints="location"
+                    android:ems="10"
+                    android:hint="@string/post_activity_location"
+                    android:inputType="text"
+                    app:layout_constraintEnd_toStartOf="@+id/timeText"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/loginButton2"
-        android:layout_width="129dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/custom_rounded_corners"
-        android:elevation="2dp"
-        android:fontFamily="sans-serif-medium"
-        android:onClick="postActivity"
-        android:text="@string/post_activity_button"
-        android:textAllCaps="false"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/newPostTile"
-        app:layout_constraintStart_toStartOf="@+id/newPostTile"
-        app:layout_constraintTop_toBottomOf="@+id/descriptionText" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+                <EditText
+                    android:id="@+id/timeText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="16dp"
+                    android:autofillHints="time"
+                    android:ems="10"
+                    android:hint="@string/post_activity_time"
+                    android:inputType="time"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.51"
+                    app:layout_constraintStart_toEndOf="@+id/locationText"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/descriptionText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:autofillHints="description"
+                    android:ems="10"
+                    android:hint="@string/post_activity_description"
+                    android:inputType="text"
+                    android:singleLine="false"
+                    app:layout_constraintBottom_toTopOf="@+id/loginButton2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/locationText" />
+
+                <Button
+                    android:id="@+id/loginButton2"
+                    android:layout_width="129dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/custom_rounded_corners"
+                    android:elevation="2dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:onClick="postActivity"
+                    android:text="@string/post_activity_button"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/descriptionText" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -2,6 +2,7 @@ package com.example.whereat;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,19 +30,20 @@ public class Feed extends AppCompatActivity {
         if (intent.hasExtra(Post.TIME)) time = intent.getStringExtra(Post.TIME);
         if (intent.hasExtra(Post.DESCRIPTION)) description = intent.getStringExtra(Post.DESCRIPTION);
 
-        TextView locationTV = findViewById(R.id.location1);
+        TextView locationTV = findViewById(R.id.location4);
         if (location != "") locationTV.setText(location);
-        else locationTV.setText(R.string.entry1_location);
+        else locationTV.setText(R.string.entry4_location);
 
-        TextView timeTV = findViewById(R.id.time1);
+        TextView timeTV = findViewById(R.id.time4);
         if (time != "") timeTV.setText(time);
-        else timeTV.setText(R.string.entry1_time);
+        else timeTV.setText(R.string.entry4_time);
 
-        TextView descriptionTV = findViewById(R.id.description1);
+        TextView descriptionTV = findViewById(R.id.description4);
         if (description != "") descriptionTV.setText(description);
-        else descriptionTV.setText(R.string.entry1_description);
+        else descriptionTV.setText(R.string.entry4_description);
 
-
+        CardView editableCard = findViewById(R.id.postTile4);
+        if (location != "") editableCard.setVisibility(View.VISIBLE);
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
