@@ -14,7 +14,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_XL_API_30" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_30" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -185,10 +185,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="100" y="116" width="1716" height="824" key="com.android.tools.idea.avdmanager.AvdListDialog/-1050.-230.1050.1640/0.0.1920.1040/1920.-228.1050.1680@0.0.1920.1040" timestamp="1605062720184" />
-    <state x="654" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1605116927497">
+    <state x="654" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1606584820712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="654" y="352" key="com.intellij.ide.util.TipDialog/-1050.-230.1050.1640/0.0.1920.1040/1920.-228.1050.1680@0.0.1920.1040" timestamp="1605116927497" />
+    <state x="654" y="352" key="com.intellij.ide.util.TipDialog/1920.-278.1050.1640/0.0.1920.1040/-1050.-285.1050.1680@0.0.1920.1040" timestamp="1606584820712" />
+    <state x="1946" y="132" width="1066" height="701" key="dock-window-1" timestamp="1606586661508">
+      <screen x="1920" y="-278" width="1050" height="1640" />
+    </state>
+    <state x="1946" y="132" width="1066" height="701" key="dock-window-1/1920.-278.1050.1640/0.0.1920.1040/-1050.-285.1050.1680@0.0.1920.1040" timestamp="1606586661508" />
     <state x="621" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1605072433914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

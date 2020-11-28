@@ -23,6 +23,8 @@ public class Post extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.post_toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
