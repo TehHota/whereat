@@ -8,13 +8,15 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="740b544c-636c-4bd8-84ce-c1d0924c84ad" name="Default Changelist" comment="" />
+    <list default="true" id="740b544c-636c-4bd8-84ce-c1d0924c84ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../addbutton.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../addbutton.svg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_30" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_XL_API_30" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -31,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="layoutResourceFile" />
         <option value="resourceFile" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -47,10 +49,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ResourceManagerPrefKey.ResourceType" value="LAYOUT" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -139,38 +142,45 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="538" y="283" key="AndroidCreateResourceDirectoryDialog/-1050.-230.1050.1640/0.0.1920.1040/1920.-228.1050.1680@0.0.1920.1040" timestamp="1605060430305" />
-    <state x="538" y="283" key="AndroidCreateResourceFileDialog" timestamp="1605072987066">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="717" y="381" key="AndroidCreateResourceFileDialog" timestamp="1606523221186">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="538" y="283" key="AndroidCreateResourceFileDialog/-1050.-230.1050.1640/0.0.1920.1040/1920.-228.1050.1680@0.0.1920.1040" timestamp="1605072987066" />
-    <state x="738" y="283" key="FileChooserDialogImpl" timestamp="1605156365033">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="717" y="381" key="AndroidCreateResourceFileDialog/0.0.2560.1400/-1920.328.1920.1040/3840.0.1080.1880@0.0.2560.1400" timestamp="1606523221186" />
+    <state x="984" y="381" key="FileChooserDialogImpl" timestamp="1606531881608">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="738" y="283" key="FileChooserDialogImpl/-1050.-230.1050.1640/0.0.1920.1040/1920.-228.1050.1680@0.0.1920.1040" timestamp="1605156365033" />
+    <state x="984" y="381" key="FileChooserDialogImpl/0.0.2560.1400/-1920.328.1920.1040/3840.0.1080.1880@0.0.2560.1400" timestamp="1606531881608" />
     <state x="828" y="421" key="Github.ShareDialog" timestamp="1605113437704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="421" key="Github.ShareDialog/-1050.-230.1050.1640/0.0.1920.1040/1920.-228.1050.1680@0.0.1920.1040" timestamp="1605113437704" />
-    <state width="1856" height="274" key="GridCell.Tab.0.bottom" timestamp="1605112164728">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2516" height="400" key="GridCell.Tab.0.bottom" timestamp="1606526829855">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1856" height="274" key="GridCell.Tab.0.bottom/-1050.-230.1050.1640/0.0.1920.1040/1920.-228.1050.1680@0.0.1920.1040" timestamp="1605112164728" />
-    <state width="1856" height="274" key="GridCell.Tab.0.center" timestamp="1605112164728">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2516" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.328.1920.1040/3840.0.1080.1880@0.0.2560.1400" timestamp="1606526829855" />
+    <state width="2516" height="400" key="GridCell.Tab.0.center" timestamp="1606526829855">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1856" height="274" key="GridCell.Tab.0.center/-1050.-230.1050.1640/0.0.1920.1040/1920.-228.1050.1680@0.0.1920.1040" timestamp="1605112164728" />
-    <state width="1856" height="274" key="GridCell.Tab.0.left" timestamp="1605112164728">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2516" height="400" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.328.1920.1040/3840.0.1080.1880@0.0.2560.1400" timestamp="1606526829855" />
+    <state width="2516" height="400" key="GridCell.Tab.0.left" timestamp="1606526829855">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1856" height="274" key="GridCell.Tab.0.left/-1050.-230.1050.1640/0.0.1920.1040/1920.-228.1050.1680@0.0.1920.1040" timestamp="1605112164728" />
-    <state width="1856" height="274" key="GridCell.Tab.0.right" timestamp="1605112164728">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2516" height="400" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.328.1920.1040/3840.0.1080.1880@0.0.2560.1400" timestamp="1606526829855" />
+    <state width="2516" height="400" key="GridCell.Tab.0.right" timestamp="1606526829855">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1856" height="274" key="GridCell.Tab.0.right/-1050.-230.1050.1640/0.0.1920.1040/1920.-228.1050.1680@0.0.1920.1040" timestamp="1605112164728" />
-    <state x="459" y="170" key="SettingsEditor" timestamp="1605112464689">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2516" height="400" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.328.1920.1040/3840.0.1080.1880@0.0.2560.1400" timestamp="1606526829855" />
+    <state x="1518" y="434" key="SettingsEditor" timestamp="1606516952756">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="459" y="170" key="SettingsEditor/-1050.-230.1050.1640/0.0.1920.1040/1920.-228.1050.1680@0.0.1920.1040" timestamp="1605112464689" />
+    <state x="1518" y="434" key="SettingsEditor/0.0.2560.1400/-1920.328.1920.1040/3840.0.1080.1880@0.0.2560.1400" timestamp="1606516952756" />
     <state x="100" y="116" width="1716" height="824" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1605062720184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

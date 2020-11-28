@@ -21,8 +21,14 @@
     <string name="entry2_author">Biola Betty</string>
     <string name="entry2_location">The Library</string>
     <string name="entry2_time">2:30-4:00</string>
-    <string name="entry2_description">Working on the chem lab due tonight. Pleas only join if your\'re going to study, sorry I really need to focus on this!!</string>
+    <string name="entry2_description">Working on the chem lab due tonight. Please only join if your\'re going to study, sorry I really need to focus on this!!</string>
     <string name="entry2_status">0 going, 1 maybe</string>
+
+    <string name="entry3_author">Thomas Burgess</string>
+    <string name="entry3_location">The Lim</string>
+    <string name="entry3_time">5:30-6:00</string>
+    <string name="entry3_description">01000011 01110010 01100101 01100100 01101001 01110100 01110011 00111010 00100000 01010100 01101000 01101111 01101101 01100001 01110011 00100000 01000010 01110101 01110010 01100111 01100101 01110011 01110011 00101100 00100000 01001101 01100001 01110100 01100101 01101111 00100000 01001100 01100001 01101110 01100111 01110011 01110100 01101111 01101110 00100000 01010011 01101101 01101001 01110100 01101000 00101100 00100000 01010100 01001010 00100000 01011001 01110101 01110010 01100101 01101011</string>
+    <string name="entry3_status">2 going, 0 maybe</string>
 
     <string name="post_activity_location">Location</string>
     <string name="post_activity_time">Time</string>
