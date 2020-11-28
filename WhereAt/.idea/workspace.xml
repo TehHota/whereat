@@ -8,7 +8,9 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="740b544c-636c-4bd8-84ce-c1d0924c84ad" name="Default Changelist" comment="" />
+    <list default="true" id="740b544c-636c-4bd8-84ce-c1d0924c84ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../addbutton.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../addbutton.svg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,11 +147,11 @@
     </state>
     <state x="538" y="283" key="AndroidCreateResourceFileDialog/-1050.-230.1050.1640/0.0.1920.1040/1920.-228.1050.1680@0.0.1920.1040" timestamp="1605072987066" />
     <state x="717" y="381" key="AndroidCreateResourceFileDialog/0.0.2560.1400/-1920.328.1920.1040/3840.0.1080.1880@0.0.2560.1400" timestamp="1606523221186" />
-    <state x="984" y="381" key="FileChooserDialogImpl" timestamp="1606520860846">
+    <state x="984" y="381" key="FileChooserDialogImpl" timestamp="1606531881608">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="738" y="283" key="FileChooserDialogImpl/-1050.-230.1050.1640/0.0.1920.1040/1920.-228.1050.1680@0.0.1920.1040" timestamp="1605156365033" />
-    <state x="984" y="381" key="FileChooserDialogImpl/0.0.2560.1400/-1920.328.1920.1040/3840.0.1080.1880@0.0.2560.1400" timestamp="1606520860846" />
+    <state x="984" y="381" key="FileChooserDialogImpl/0.0.2560.1400/-1920.328.1920.1040/3840.0.1080.1880@0.0.2560.1400" timestamp="1606531881608" />
     <state x="828" y="421" key="Github.ShareDialog" timestamp="1605113437704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -7,34 +7,48 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
-   version="1.1"
-   id="svg8"
+   sodipodi:docname="addbutton.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="addbutton.svg">
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
   <defs
-     id="defs2" />
+     id="defs2">
+    <filter
+       height="1.271934"
+       y="-0.135967"
+       width="1.271934"
+       x="-0.13596702"
+       id="filter2089"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur2091"
+         stdDeviation="12.23399"
+         inkscape:collect="always" />
+    </filter>
+  </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="400"
-     inkscape:cy="560"
-     inkscape:document-units="mm"
-     inkscape:current-layer="g863"
-     inkscape:document-rotation="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-11"
+     inkscape:window-x="2869"
+     inkscape:window-height="2066"
+     inkscape:window-width="3840"
      showgrid="false"
-     inkscape:window-width="1741"
-     inkscape:window-height="1228"
-     inkscape:window-x="4823"
-     inkscape:window-y="417"
-     inkscape:window-maximized="0" />
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="560"
+     inkscape:cx="400"
+     inkscape:zoom="0.35"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -43,44 +57,55 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <circle
+     inkscape:label="Layer 1">
+    <ellipse
+       transform="matrix(0.85546099,0,0,0.85546099,15.176596,21.46404)"
+       ry="107.97317"
+       rx="107.97315"
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        inkscape:export-filename="C:\Users\thoma\Desktop\School\UI\path867.png"
-       style="fill:#e31837;stroke-width:17.6466;fill-opacity:1"
-       id="path867"
+       style="opacity:1;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:19.0537;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter2089)"
+       id="path867-5"
        cx="105"
+       cy="148.5" />
+    <circle
+       r="100"
        cy="148.5"
-       r="100" />
+       cx="105"
+       id="path867"
+       style="fill:#e31837;stroke-width:17.6466;fill-opacity:1"
+       inkscape:export-filename="C:\Users\thoma\Desktop\School\UI\path867.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <g
-       id="g863"
-       transform="matrix(10.416667,0,0,10.416667,-237.52023,100.39047)">
+       transform="matrix(10.416667,0,0,10.416667,-237.52023,100.39047)"
+       id="g863">
       <path
-         id="path849"
+         d="M 0,0 H 24 V 24 H 0 Z"
          fill="none"
-         d="M 0,0 H 24 V 24 H 0 Z" />
+         id="path849" />
       <path
-         inkscape:export-ydpi="96"
-         inkscape:export-xdpi="96"
-         inkscape:export-filename="C:\Users\thoma\Desktop\School\UI\path867.png"
-         style="fill:#000000;fill-opacity:0.28089887;stroke-width:0.891428"
+         id="path851-1"
          d="M 39.551157,5.8719591 H 34.202585 V 11.220531 H 32.419728 V 5.8719591 H 27.071157 V 4.0891019 h 5.348571 v -5.348571 h 1.782857 v 5.348571 h 5.348572 z"
-         id="path851-1" />
-      <path
-         inkscape:export-ydpi="96"
-         inkscape:export-xdpi="96"
+         style="fill:#000000;fill-opacity:0.28089887;stroke-width:0.891428"
          inkscape:export-filename="C:\Users\thoma\Desktop\School\UI\path867.png"
-         id="path851"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         style="fill:#ffffff;stroke-width:0.891429"
          d="M 39.121941,5.5099429 H 33.773369 V 10.858515 H 31.990512 V 5.5099429 H 26.641941 V 3.7270858 h 5.348571 v -5.3485711 h 1.782857 v 5.3485711 h 5.348572 z"
-         style="fill:#ffffff;stroke-width:0.891429" />
+         id="path851"
+         inkscape:export-filename="C:\Users\thoma\Desktop\School\UI\path867.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
     </g>
   </g>
 </svg>
