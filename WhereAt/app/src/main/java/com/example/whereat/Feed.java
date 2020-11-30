@@ -20,6 +20,7 @@ public class Feed extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.feed_toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
+        getSupportFragmentManager().executePendingTransactions();
 
         String location = "";
         String time = "";
