@@ -13,6 +13,8 @@ import android.widget.TextView;
 
 public class Feed extends AppCompatActivity {
 
+    static String author = "Thomas";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +50,10 @@ public class Feed extends AppCompatActivity {
 
         CardView editableCard = findViewById(R.id.postTile4);
         if (location != "") editableCard.setVisibility(View.VISIBLE);
+
+        TextView authorTV = findViewById(R.id.author4);
+        authorTV.setText(author);
+
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {

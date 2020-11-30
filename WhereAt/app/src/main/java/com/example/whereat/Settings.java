@@ -38,8 +38,7 @@ public class Settings extends AppCompatActivity {
     public void saveActivity(View view) {
         EditText displayname = (EditText) findViewById(R.id.editTextTextPersonName4);
         String displayName = displayname.getText().toString();
-        TextView author = findViewById(R.id.author4);
-        author.setText(displayName);
+        Feed.author = displayName;
     }
 
     @Override
