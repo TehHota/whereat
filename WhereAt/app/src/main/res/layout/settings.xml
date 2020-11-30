@@ -154,7 +154,7 @@
                     android:background="@drawable/custom_rounded_corners"
                     android:elevation="2dp"
                     android:fontFamily="sans-serif-medium"
-                    android:onClick="logoutActivity"
+                    android:onClick="saveActivity"
                     android:text="@string/settings_activity_save_button"
                     android:textAllCaps="false"
                     android:textColor="#FFFFFF"
