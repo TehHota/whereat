@@ -37,7 +37,8 @@
     <string name="entry4_status">0 going, 0 maybe</string>
 
     <string name="post_activity_location">Location</string>
-    <string name="post_activity_time">Time</string>
+    <string name="post_activity_time">Start Time</string>
+    <string name="post_activity_end_time">End Time</string>
     <string name="post_activity_description">Description...</string>
     <string name="post_activity_button">Post</string>
 
@@ -46,6 +47,8 @@
     <string name="settings_activity_notifications_time">10</string>
     <string name="settings_activity_notifications_time_description">minutes before events you have responded to</string>
     <string name="settings_activity_notifications_logout_button">Log Out</string>
+    <string name="settings_activity_save_button">Save</string>
+    <string name="settings_activity_notifications_time_label">Time to be notified before events occur</string>
     <string name="new_post_button">New Post Button</string>
 
 </resources>

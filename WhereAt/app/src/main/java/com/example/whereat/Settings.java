@@ -5,9 +5,13 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
+import com.google.android.material.snackbar.Snackbar;
 
 public class Settings extends AppCompatActivity {
 
@@ -18,6 +22,9 @@ public class Settings extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.settings_toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
+        getSupportFragmentManager().executePendingTransactions();
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -28,6 +35,13 @@ public class Settings extends AppCompatActivity {
     public void logoutActivity(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+    }
+
+    public void saveActivity(View view) {
+        EditText displayname = (EditText) findViewById(R.id.editTextTextPersonName4);
+        String displayName = displayname.getText().toString();
+        Feed.author = displayName;
+        Snackbar.make(view, "Display Name Saved", Snackbar.LENGTH_SHORT).show();
     }
 
     @Override
