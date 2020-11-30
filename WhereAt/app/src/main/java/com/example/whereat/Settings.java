@@ -11,6 +11,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import com.google.android.material.snackbar.Snackbar;
+
 public class Settings extends AppCompatActivity {
 
     @Override
@@ -39,6 +41,7 @@ public class Settings extends AppCompatActivity {
         EditText displayname = (EditText) findViewById(R.id.editTextTextPersonName4);
         String displayName = displayname.getText().toString();
         Feed.author = displayName;
+        Snackbar.make(view, "Display Name Saved", Snackbar.LENGTH_SHORT).show();
     }
 
     @Override
