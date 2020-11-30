@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -30,6 +32,13 @@ public class Settings extends AppCompatActivity {
     public void logoutActivity(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+    }
+
+    public void saveActivity(View view) {
+        EditText displayname = (EditText) findViewById(R.id.editTextTextPersonName4);
+        String displayName = displayname.getText().toString();
+        TextView author = findViewById(R.id.author4);
+        author.setText(displayName);
     }
 
     @Override

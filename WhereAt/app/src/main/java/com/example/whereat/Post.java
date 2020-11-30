@@ -14,6 +14,7 @@ public class Post extends AppCompatActivity {
 
     public static final String LOCATION = "com.example.whereat.LOCATION";
     public static final String TIME = "com.example.whereat.TIME";
+    public static final String END_TIME = "com.example.whereat.END_TIME";
     public static final String DESCRIPTION = "com.example.whereat.DESCRIPTION";
 
     @Override
@@ -40,6 +41,9 @@ public class Post extends AppCompatActivity {
         EditText timeText = (EditText) findViewById(R.id.timeText);
         String time = timeText.getText().toString();
         intent.putExtra(TIME, time);
+        EditText endTimeText = (EditText) findViewById(R.id.endTimeText);
+        String endTime = endTimeText.getText().toString();
+        intent.putExtra(END_TIME, endTime);
         EditText descriptionText = (EditText) findViewById(R.id.descriptionText);
         String description = descriptionText.getText().toString();
         intent.putExtra(DESCRIPTION, description);
