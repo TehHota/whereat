@@ -1,5 +1,7 @@
 # Where@
 
+A social media app about the future, not the past.
+
 ## App Mission Statement
 Our mission is to unite students of all interests using the format of social media in order to foster community through physical activity at Biola University.
 ## Scope:
